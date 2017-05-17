@@ -6,7 +6,7 @@ public class Usuario {
 	private String nomeCompletoCliente;
 	private String emailCliente;
 	private String senhaCliente;
-	private String CPFCliente;
+	private String cpfCliente;
 	private String celularCliente;
 	private String telComercialCliente;
 	private String telResidencialCliente;
@@ -37,11 +37,11 @@ public class Usuario {
 	public void setSenhaCliente(String senhaCliente) {
 		this.senhaCliente = senhaCliente;
 	}
-	public String getCPFCliente() {
-		return CPFCliente;
+	public String getcpfCliente() {
+		return cpfCliente;
 	}
-	public void setCPFCliente(String cPFCliente) {
-		CPFCliente = cPFCliente;
+	public void setcpfCliente(String cpfCliente) {
+		this.cpfCliente = cpfCliente;
 	}
 	public String getCelularCliente() {
 		return celularCliente;

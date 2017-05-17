@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: vinicius.oalves1
+Built-By: mateus.mferreira1
 Build-Jdk: 1.8.0_112
 Created-By: Maven Integration for Eclipse
 

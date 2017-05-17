@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -14,8 +15,6 @@ import br.com.senac.tsi.pi4.Database;
 import br.com.senac.tsi.pi4.Usuario;
 
 import com.google.gson.Gson;
-
-
 
 @Path ("/usuarios")
 public class UsuarioService {
@@ -48,6 +47,5 @@ public class UsuarioService {
 		String jsonUsuario = gson.toJson(usuario);
 		System.out.println("retornando usuário "+jsonUsuario);
 		return Response.status(200).entity("").build();
-	}
-	
+	}	
 }
